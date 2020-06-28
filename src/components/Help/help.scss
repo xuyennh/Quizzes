@@ -1,0 +1,16 @@
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid wheat;
+  padding: 20px 0;
+}
+.inner {
+  border-radius: 50%;
+  background-color: black;
+  border: 0;
+  padding: 5px 15px;
+  border-width: 2px;
+  border-style: ridge;
+  color: #feffd4;
+  font-weight: bold;
+}

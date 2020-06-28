@@ -1,0 +1,35 @@
+.container {
+  background-image: linear-gradient(to right bottom, #5a83ac, #000000d9);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title,
+.name {
+  color: #f7fb08bd;
+}
+.inputname {
+  display: block;
+  margin: 10px 0;
+}
+.btn {
+  border: 0;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-width: 2px;
+  border-style: ridge;
+  border-radius: 5%;
+  background-color: #ff9c12f0;
+  color: #feffd4;
+  font-weight: bold;
+}
