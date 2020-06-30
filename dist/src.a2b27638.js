@@ -196,12 +196,12 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "container": "_container_3fdf9",
-  "form": "_form_3fdf9",
-  "title": "_title_3fdf9",
-  "name": "_name_3fdf9",
-  "inputname": "_inputname_3fdf9",
-  "btn": "_btn_3fdf9"
+  "container": "_container_85c01",
+  "form": "_form_85c01",
+  "title": "_title_85c01",
+  "name": "_name_85c01",
+  "inputname": "_inputname_85c01",
+  "btn": "_btn_85c01"
 };
 },{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/components/HomeScreen/HomeScreen.js":[function(require,module,exports) {
 "use strict";
@@ -230,8 +230,8 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "btn": "_btn_e4b8b",
-  "inner": "_inner_e4b8b"
+  "btn": "_btn_39b27",
+  "inner": "_inner_39b27"
 };
 },{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/components/Help/Help.js":[function(require,module,exports) {
 "use strict";
@@ -281,20 +281,20 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "main": "_main_84bbb",
-  "game": "_game_84bbb",
-  "question": "_question_84bbb",
-  "questionnumber": "_questionnumber_84bbb",
-  "listanswer": "_listanswer_84bbb",
-  "name": "_name_84bbb",
-  "showhelp": "_showhelp_84bbb",
-  "showscore": "_showscore_84bbb",
-  "btn": "_btn_84bbb",
-  "score": "_score_84bbb",
-  "scorequestion": "_scorequestion_84bbb",
-  "btnstop": "_btnstop_84bbb",
-  "countdown": "_countdown_84bbb",
-  "modal": "_modal_84bbb"
+  "main": "_main_1b414",
+  "game": "_game_1b414",
+  "question": "_question_1b414",
+  "questionnumber": "_questionnumber_1b414",
+  "listanswer": "_listanswer_1b414",
+  "name": "_name_1b414",
+  "showhelp": "_showhelp_1b414",
+  "showscore": "_showscore_1b414",
+  "btn": "_btn_1b414",
+  "score": "_score_1b414",
+  "scorequestion": "_scorequestion_1b414",
+  "btnstop": "_btnstop_1b414",
+  "countdown": "_countdown_1b414",
+  "modal": "_modal_1b414"
 };
 },{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/components/MainScreen/MainScreen.js":[function(require,module,exports) {
 "use strict";
@@ -350,7 +350,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function EndGame(props) {
   return (
     /*html*/
-    "\n    <div class=\"".concat(_home.default.container, "\">\n      <div class=\"").concat(_home.default.form, "\">\n        <h2>Chu\u0301c M\u01B0\u0300ng Ba\u0323n, Tro\u0300 Ch\u01A1i \u0110a\u0303 K\xEA\u0301t Thu\u0301c!</h2>\n        <div>T\xF4\u0309ng s\xF4\u0301 \u0111i\xEA\u0309m ba\u0323n \u0111a\u0323t \u0111\u01B0\u01A1\u0323c la\u0300: ").concat(props.totalScore, "</div>\n        <button id=\"restart\" class=\"").concat(_home.default.btn, "\">Ch\u01A1i La\u0323i</button>\n      </div>\n    </div>\n  ")
+    "\n    <div class=\"".concat(_home.default.container, "\">\n      <div class=\"").concat(_home.default.form, "\">\n        <h2>Xin l\xF4\u0303i, Ba\u0323n \u0110a\u0303 Thua Cu\xF4\u0323c!</h2>\n        <div>T\xF4\u0309ng s\xF4\u0301 \u0111i\xEA\u0309m ba\u0323n \u0111a\u0323t \u0111\u01B0\u01A1\u0323c la\u0300: ").concat(props.totalScore, "</div>\n        <button id=\"restart\" class=\"").concat(_home.default.btn, "\">Ch\u01A1i La\u0323i</button>\n      </div>\n    </div>\n  ")
   );
 }
 
@@ -362,9 +362,9 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "answer": "_answer_6708c",
-  "input": "_input_6708c",
-  "item": "_item_6708c"
+  "answer": "_answer_99fbf",
+  "input": "_input_99fbf",
+  "item": "_item_99fbf"
 };
 },{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/components/Answer/Answer.js":[function(require,module,exports) {
 "use strict";
@@ -410,9 +410,9 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "container": "_container_1eccd",
-  "content": "_content_1eccd",
-  "overlay": "_overlay_1eccd"
+  "container": "_container_efe00",
+  "content": "_content_efe00",
+  "overlay": "_overlay_efe00"
 };
 },{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/components/ModalBase/ModalBase.js":[function(require,module,exports) {
 "use strict";
@@ -465,12 +465,12 @@ var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 module.exports = {
-  "modal": "_modal_0f1cb",
-  "animatetop": "_animatetop_0f1cb",
-  "header": "_header_0f1cb",
-  "content": "_content_0f1cb",
-  "close": "_close_0f1cb",
-  "title": "_title_0f1cb"
+  "modal": "_modal_277f6",
+  "animatetop": "_animatetop_277f6",
+  "header": "_header_277f6",
+  "content": "_content_277f6",
+  "close": "_close_277f6",
+  "title": "_title_277f6"
 };
 },{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/components/Modal/Modal.js":[function(require,module,exports) {
 "use strict";
@@ -636,7 +636,34 @@ var random = {
 };
 var _default = random;
 exports.default = _default;
-},{}],"src/App.js":[function(require,module,exports) {
+},{}],"src/components/WinGameScreen/WinGameScreen.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _home = _interopRequireDefault(require("../HomeScreen/home.scss"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ *
+ * @param {{
+ *  totalScore: number
+ * }} props
+ */
+function WinGame(props) {
+  return (
+    /*html*/
+    "\n    <div class=\"".concat(_home.default.container, "\">\n      <div class=\"").concat(_home.default.form, "\">\n        <h2>Chu\u0301c M\u01B0\u0300ng Ba\u0323n, Ba\u0323n \u0110a\u0303 Chi\xEA\u0301n Th\u0103\u0301ng!</h2>\n        <div>T\xF4\u0309ng s\xF4\u0301 \u0111i\xEA\u0309m ba\u0323n \u0111a\u0323t \u0111\u01B0\u01A1\u0323c la\u0300: ").concat(props.totalScore, "</div>\n        <button id=\"restart\" class=\"").concat(_home.default.btn, "\">Ch\u01A1i La\u0323i</button>\n      </div>\n    </div>\n  ")
+  );
+}
+
+var _default = WinGame;
+exports.default = _default;
+},{"../HomeScreen/home.scss":"src/components/HomeScreen/home.scss"}],"src/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -657,6 +684,8 @@ var _Modal = _interopRequireDefault(require("./components/Modal/Modal"));
 var _counter2 = _interopRequireDefault(require("./utils/counter"));
 
 var _random = _interopRequireDefault(require("./utils/random"));
+
+var _WinGameScreen = _interopRequireDefault(require("./components/WinGameScreen/WinGameScreen"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -722,6 +751,15 @@ QuizzGame.prototype = {
       totalScore: this.totalScore
     });
   },
+  ShowWinGame: function ShowWinGame() {
+    return this.$root.innerHTML = (0, _WinGameScreen.default)({
+      totalScore: this.totalScore
+    });
+  },
+  renderWinGame: function renderWinGame() {
+    this.ShowWinGame();
+    this.handleDOM();
+  },
   renderEndGame: function renderEndGame() {
     this.renderRestart();
     this.handleDOM();
@@ -749,8 +787,8 @@ QuizzGame.prototype = {
       this.totalScore += score;
 
       if (this.index + 1 === this.quizzes.length) {
-        this.renderEndGame();
         this.coundown.clear();
+        this.renderWinGame();
       } else {
         this.index++;
         this.coundown.clear();
@@ -806,7 +844,7 @@ QuizzGame.prototype = {
     }
 
     var $help = document.querySelector("#help5050");
-    return $help.innerHTML = "Chu\u0301ng t\xF4i xin tr\u01A1\u0323 giu\u0301p 50:50 la\u0300: ".concat(item.value.toUpperCase(), " ho\u0103\u0323c ").concat(answer.toUpperCase());
+    $help.innerHTML = "Chu\u0301ng t\xF4i xin tr\u01A1\u0323 giu\u0301p 50:50 la\u0300: ".concat(item.value.toUpperCase(), " ho\u0103\u0323c ").concat(answer.toUpperCase());
     this.ramdomNumber = true;
   },
   // xử lí hỗ trợ gọi điện thoại cho người thân
@@ -831,8 +869,7 @@ QuizzGame.prototype = {
   },
   // xử lí dừng cuộc chơi
   handleStopGame: function handleStopGame() {
-    this.renderRestart();
-    this.handleDOM();
+    this.renderEndGame();
     this.coundown.clear();
   },
   // nhận giá trị tên nhập vào
@@ -844,7 +881,7 @@ QuizzGame.prototype = {
     var _this2 = this;
 
     return (0, _counter2.default)({
-      from: 2000,
+      from: 20,
       to: 0,
       onStart: function onStart() {},
       onChange: function onChange(from) {
@@ -928,7 +965,7 @@ QuizzGame.prototype = {
 };
 var _default = QuizzGame;
 exports.default = _default;
-},{"./components/HomeScreen/HomeScreen":"src/components/HomeScreen/HomeScreen.js","./components/MainScreen/MainScreen":"src/components/MainScreen/MainScreen.js","./components/EndGameScreen/EndGameScreen":"src/components/EndGameScreen/EndGameScreen.js","./components/Answer/Answer":"src/components/Answer/Answer.js","./components/Modal/Modal":"src/components/Modal/Modal.js","./utils/counter":"src/utils/counter.js","./utils/random":"src/utils/random.js"}],"src/data.js":[function(require,module,exports) {
+},{"./components/HomeScreen/HomeScreen":"src/components/HomeScreen/HomeScreen.js","./components/MainScreen/MainScreen":"src/components/MainScreen/MainScreen.js","./components/EndGameScreen/EndGameScreen":"src/components/EndGameScreen/EndGameScreen.js","./components/Answer/Answer":"src/components/Answer/Answer.js","./components/Modal/Modal":"src/components/Modal/Modal.js","./utils/counter":"src/utils/counter.js","./utils/random":"src/utils/random.js","./components/WinGameScreen/WinGameScreen":"src/components/WinGameScreen/WinGameScreen.js"}],"src/data.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1091,7 +1128,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50381" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64747" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

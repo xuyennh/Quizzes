@@ -5,6 +5,7 @@ import showAnswer from "./components/Answer/Answer";
 import Modal from "./components/Modal/Modal";
 import counter from "./utils/counter";
 import random from "./utils/random";
+import WinGame from "./components/WinGameScreen/WinGameScreen";
 
 function QuizzGame(quizzes) {
   this.quizzes = quizzes;
@@ -61,6 +62,17 @@ QuizzGame.prototype = {
     }));
   },
 
+  ShowWinGame() {
+    return (this.$root.innerHTML = WinGame({
+      totalScore: this.totalScore,
+    }));
+  },
+
+  renderWinGame() {
+    this.ShowWinGame();
+    this.handleDOM();
+  },
+
   renderEndGame() {
     this.renderRestart();
     this.handleDOM();
@@ -84,8 +96,8 @@ QuizzGame.prototype = {
     if (selectItem.isCorreect) {
       this.totalScore += score;
       if (this.index + 1 === this.quizzes.length) {
-        this.renderEndGame();
         this.coundown.clear();
+        this.renderWinGame();
       } else {
         this.index++;
         this.coundown.clear();
@@ -139,7 +151,7 @@ QuizzGame.prototype = {
       return;
     }
     var $help = document.querySelector("#help5050");
-    return ($help.innerHTML = `Chúng tôi xin trợ giúp 50:50 là: ${item.value.toUpperCase()} hoặc ${answer.toUpperCase()}`);
+    $help.innerHTML = `Chúng tôi xin trợ giúp 50:50 là: ${item.value.toUpperCase()} hoặc ${answer.toUpperCase()}`;
     this.ramdomNumber = true;
   },
   // xử lí hỗ trợ gọi điện thoại cho người thân
@@ -162,8 +174,7 @@ QuizzGame.prototype = {
   },
   // xử lí dừng cuộc chơi
   handleStopGame() {
-    this.renderRestart();
-    this.handleDOM();
+    this.renderEndGame();
     this.coundown.clear();
   },
 
@@ -175,7 +186,7 @@ QuizzGame.prototype = {
   // xử lí thời gian câu hỏi
   counter() {
     return counter({
-      from: 2000,
+      from: 20,
       to: 0,
       onStart: () => {},
       onChange: (from) => {
